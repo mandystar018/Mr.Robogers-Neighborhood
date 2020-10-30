@@ -1,8 +1,13 @@
 //Business logic
 function mrRobo(input){
+  let newArray = [];
   for (let i = 0; i <= input; i++) {
-    console.log(i);
+    if ((i).includes("1")) {
+      newArray.push("Beep!");
+      console.log(newArray);
+    }
   }
+  return newArray;
 }
 
 
