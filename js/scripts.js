@@ -2,9 +2,11 @@
 function mrRobo(input){
   let newArray = [];
   for (let i = 0; i <= input; i++) {
-    if ((i).includes("1")) {
+    if ((i).toString().includes("2")) {
       newArray.push("Beep!");
       console.log(newArray);
+    } else if ((i).toString().includes("3")){
+      newArray.push("Boop!");
     }
   }
   return newArray;
@@ -28,8 +30,8 @@ function mrRobo(input){
 $(document).ready(function() {
   $("#roboger").submit(function(event) {
     event.preventDefault();
-    const userNumber = $("#number").val();
+    const userNumber = parseInt($("#number").val());
     const roboResults = mrRobo(userNumber);
-    $("#result").text(roboResults);
+    $("#results").text(roboResults);
   });
 });
