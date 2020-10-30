@@ -28,5 +28,7 @@ $(document).ready(function() {
   $("#roboger").submit(function(event) {
     event.preventDefault();
     const userNumber = $("#number").val();
+    const roboResults = mrRobo(userNumber);
+    $("#result").text(roboResults);
   });
 });
