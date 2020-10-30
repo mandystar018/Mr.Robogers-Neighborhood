@@ -11,7 +11,7 @@ _Mr. Roboger Neighborhood is going to ask for a number and is going to give you 
 ## Setup/Installation Requirements
 
 #### View Online
-* _To view my project visit:_
+* _To view my project visit: https://mandystar018.github.io/Mr.Robogers-Neighborhood/_
 
 #### Open Locally
 1. _Go to my GitHub mandystar018_
@@ -42,12 +42,12 @@ _If there is any concerns or questions please email me: mandystar018@gmail.com_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_Java Scripts_
-_jQuery_
-_VS Code_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Java Scripts_
+* _jQuery_
+* _VS Code_
 
 ### License
 
