@@ -1,13 +1,9 @@
 //Business logic
 function mrRobo(input){
-const newArray = input.map(function(element) {
-  if (element === input.includes("3")) {
-  return newArray.push("Hello?");
+  for (let i = 0; i <= input; i++) {
+    console.log(i);
   }
-});
-return element;
 }
-console.log(mrRobo("3"));
 
 
 
