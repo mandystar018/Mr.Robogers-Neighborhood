@@ -5,8 +5,8 @@
 
 $(document).ready(function() {
   $("#roboger").submit(function(event) {
-    event.preventDefautl();
+    event.preventDefault();
+    const userNumber = $("#number").val();
 
-    
   });
 });
