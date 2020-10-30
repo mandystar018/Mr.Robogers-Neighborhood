@@ -24,18 +24,12 @@ _Mr. Roboger Neighborhood is going to ask for a number and is going to give you 
 
 ## Test/Specs
 
-Describe: mrRobo()
-Test: "It should give me 0 when the user input "0"
-Expect: (mrRobo("0")).toEqual("0");
-
-Test: "It should give me "Beep!" when the user input 1"
-Expect: (mrRobo("1")).toEqual("Beep!");
-
-Test: "It should give me "Beep!" when the user input 1"
-Expect: (mrRobo("2")).toEqual("Boop!");
-
-Test: "It should give me "Beep!" when the user input 1"
-Expect: (mrRobo("3")).toEqual("Won't you be my neighbor?");
+| Description mrRobo() 	| Input 	| Output 	|
+|-	|-	|-	|
+| Test: "It should give me 0 when the user input "0" 	| Expect:(mrRobo("0")) 	| 0 	|
+| Test: "It should give me "Beep!" when the user input 1" 	| Expect: (mrRobo("1")) 	| Beep! 	|
+| Test: "It should give me "Boop!" when the user input 2" 	| Expect: (mrRobo("2")) 	| Boop! 	|
+| Test: "It should give me "Won't you be my neighbor?" when the user input "3" 	| Expect: (mrRobo("3")) 	| Won't you be my neighbor? 	|
 
 
 ## Known Bugs
