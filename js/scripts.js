@@ -2,12 +2,11 @@
 function mrRobo(input){
   let newArray = [];
   for (let i = 0; i <= input; i++) {
-    if ((i).toString().includes("3")) {
+    if (i.toString().includes("3")) {
       newArray.push("Won't you be my neighbor?");
-      console.log(newArray);
-    } else if ((i).toString().includes("2")){
+    } else if (i.toString().includes("2")){
       newArray.push("Boop!");
-    } else if ((i).toString().includes("1")){
+    } else if (i.toString().includes("1")){
       newArray.push("Beep!");
     } else {
     newArray.push(i);
@@ -15,19 +14,6 @@ function mrRobo(input){
   }
   return newArray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // User Interface logic
 

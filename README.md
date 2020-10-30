@@ -17,8 +17,10 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _To edit open you favorite text editor_
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
  ==========================================================
 
+## Test/Specs
 
 Describe: mrRobo()
 Test: "It should give me 0 when the user input "0"
@@ -29,6 +31,9 @@ Expect: (mrRobo("1")).toEqual("Beep!");
 
 Test: "It should give me "Beep!" when the user input 1"
 Expect: (mrRobo("2")).toEqual("Boop!");
+
+Test: "It should give me "Beep!" when the user input 1"
+Expect: (mrRobo("3")).toEqual("Won't you be my neighbor?");
 
 
 ## Known Bugs
