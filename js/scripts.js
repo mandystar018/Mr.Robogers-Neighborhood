@@ -22,6 +22,10 @@ $(document).ready(function() {
     event.preventDefault();
     const userNumber = parseInt($("#number").val());
     const roboResults = mrRobo(userNumber);
-    $("#results").text(roboResults);
+    $("#button").click(function(){
+      $("#happy").hide();
+      $("#mad").show();
+      $("#results").text(roboResults);
+    });
   });
 });

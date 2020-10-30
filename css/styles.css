@@ -1,8 +1,21 @@
 img {
   width: 500px;
   border-radius: 50%;
+  margin-bottom: 40px;
 }
 
 .container {
   text-align: center;
+}
+
+#mad {
+  display: none;
+}
+
+.line {
+  border-top: 2px solid #BFC9CA;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
