@@ -2,11 +2,15 @@
 function mrRobo(input){
   let newArray = [];
   for (let i = 0; i <= input; i++) {
-    if ((i).toString().includes("2")) {
-      newArray.push("Beep!");
+    if ((i).toString().includes("3")) {
+      newArray.push("Won't you be my neighbor?");
       console.log(newArray);
-    } else if ((i).toString().includes("3")){
+    } else if ((i).toString().includes("2")){
       newArray.push("Boop!");
+    } else if ((i).toString().includes("1")){
+      newArray.push("Beep!");
+    } else {
+    newArray.push(i);
     }
   }
   return newArray;
